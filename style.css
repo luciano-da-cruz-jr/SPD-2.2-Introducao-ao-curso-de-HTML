@@ -2,6 +2,8 @@ body
 {
      background: #f7f7f7;
      font-family: Verdana;
+     max-width: 900px;
+     margin: auto;
 }
 
 .photo
@@ -49,11 +51,13 @@ a
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_image
 {
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .content_list
